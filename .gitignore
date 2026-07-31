@@ -1,0 +1,12 @@
+# 忽略日志和聊天记录
+logs/
+*.log
+*.jsonl
+
+# 忽略数据库与状态文件
+*.sqlite3
+workspace/state.sqlite3
+
+# 忽略临时和环境配置
+.env
+__pycache__/

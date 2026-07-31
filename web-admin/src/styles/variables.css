@@ -1,0 +1,66 @@
+/* ====== MyClaw Admin — Design Tokens ====== */
+
+:root {
+  /* 品牌色 */
+  --color-cyan: #00ffff;
+  --color-purple: #8d52ff;
+  --color-purple-light: #b388ff;
+  --color-purple-dim: #6c3fd4;
+
+  /* 背景层级 */
+  --bg-root: #0d0d1a;
+  --bg-surface: #13132b;
+  --bg-card: #1a1a38;
+  --bg-card-hover: #1f1f42;
+  --bg-input: #111128;
+
+  /* 边框 */
+  --border-subtle: #1e1e40;
+  --border-active: #2a2a52;
+
+  /* 文字 */
+  --text-primary: #e8e8f0;
+  --text-secondary: #9898b8;
+  --text-dim: #5c5c82;
+  --text-muted: #3d3d60;
+
+  /* 状态色 */
+  --color-green: #4ade80;
+  --color-red: #f87171;
+  --color-yellow: #fbbf24;
+  --color-blue: #60a5fa;
+
+  /* 日志事件色 */
+  --log-ai-message: #4ade80;
+  --log-tool-call: #00ffff;
+  --log-tool-result: #6b7280;
+  --log-llm-input: #b388ff;
+  --log-system: #fbbf24;
+
+  /* 间距 */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* 圆角 */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* 阴影 */
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --shadow-glow-purple: 0 0 20px rgba(141, 82, 255, 0.15);
+  --shadow-glow-cyan: 0 0 20px rgba(0, 255, 255, 0.1);
+
+  /* 字体 */
+  --font-mono: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Consolas', monospace;
+  --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  /* 过渡 */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}

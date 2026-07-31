@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myclaw"
+version = "0.1.0"
+description = "MyClaw - 透明智能体架构，移动端AI助手"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+packages = ["myclaw", "myclaw.core", "myclaw.core.tools", "myclaw.server", "myclaw.server.routes"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
